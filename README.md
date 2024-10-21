@@ -1,2 +1,2 @@
 # Billing_for_Hostell
-Billing Microservice for hostel project
+This project has a service for POST(AdminSide) and GET(StudentSide) a bill for hostell mess bill.
