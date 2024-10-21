@@ -15,11 +15,7 @@ public class StudentController {
     @Autowired
     private MessBillService messBillService;
 
-    /**
-     * Endpoint to retrieve the latest MessBill.
-     *
-     * @return The amount per student or a 404 error if no bills exist.
-     */
+   
     @GetMapping("/mess-bill")
     public ResponseEntity<?> getMessBill() {
         MessBill bill = messBillService.getLatestMessBill();
